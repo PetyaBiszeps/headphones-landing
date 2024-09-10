@@ -2,7 +2,7 @@
 
 ## Headphones Website
 
-### Live Website:
+### Live Website: https://petyabiszeps.github.io/headphones-landing/
 
 ## Screenshots
 
