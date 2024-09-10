@@ -17,6 +17,8 @@
 
   border-radius: 0.5rem;
   background-color: var(--container-color);
+
+  cursor: pointer;
 }
 
 .product__img {
@@ -48,4 +50,20 @@
   padding: 0.5rem;
   position: absolute;
   border-radius: 0.35rem;
+}
+
+// -----> Hover Card
+
+.product__card:hover {
+  .product__img {
+    transform: scale(1.1);
+    transition: 0.25s ease-in-out;
+  }
+}
+
+.product__card:not(:hover) {
+  .product__img {
+    transform: scale(1);
+    transition: 0.25s ease-in-out;
+  }
 }
