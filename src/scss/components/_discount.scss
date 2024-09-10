@@ -1,0 +1,23 @@
+.discount__container {
+  position: relative;
+  padding: 2rem 1.5rem;
+  border-radius: 0.75rem;
+  background-color: var(--container-color);
+}
+
+.discount__title {
+  margin-bottom: var(--mb-0-75);
+  font-size: var(--h3-font-size);
+}
+
+.discount__description {
+  margin-bottom: var(--mb-1);
+}
+
+.discount__img {
+  top: 4rem;
+  right: -11rem;
+
+  width: 300px;
+  position: absolute;
+}

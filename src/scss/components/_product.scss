@@ -1,0 +1,51 @@
+.product__line {
+  line-height: 4rem;
+}
+
+.product__container {
+  gap: 5rem 1.5rem;
+  padding-top: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.product__card {
+  display: grid;
+  position: relative;
+
+  height: 132px;
+  padding: 0.75rem;
+
+  border-radius: 0.5rem;
+  background-color: var(--container-color);
+}
+
+.product__img {
+  inset: 0;
+  top: -3rem;
+
+  width: 80px;
+  position: absolute;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product__content {
+  align-self: flex-end;
+}
+
+.product__title, .products__price {
+  font-size: var(--small-font-size);
+}
+
+.product__price {
+  font-weight: var(--font-semi-bold);
+}
+
+.product__button {
+  right: 0.5rem;
+  bottom: 0.5rem;
+  padding: 0.5rem;
+  position: absolute;
+  border-radius: 0.35rem;
+}
